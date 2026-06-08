@@ -1,0 +1,23 @@
+# Archivo de preguntas para TriviaNet
+# Formato: pregunta|opcionA|opcionB|opcionC|opcionD|indiceCorrecta (0=A, 1=B, 2=C, 3=D)
+
+¿Cuál es el planeta más grande del sistema solar?|Marte|Júpiter|Saturno|Venus|1
+¿En qué año llegó el hombre a la Luna?|1965|1969|1972|1959|1
+¿Cuál es el elemento químico más abundante en el universo?|Oxígeno|Carbono|Hidrógeno|Helio|2
+¿Qué país tiene forma de bota?|Grecia|España|Italia|Portugal|2
+¿Cuántos huesos tiene el cuerpo humano adulto?|186|206|256|196|1
+¿Quién pintó la Mona Lisa?|Miguel Ángel|Rafael|Leonardo da Vinci|Botticelli|2
+¿Cuál es el océano más grande del mundo?|Atlántico|Índico|Pacífico|Ártico|2
+¿En qué continente se encuentra Egipto?|Asia|Europa|África|Oceanía|2
+¿Cuál es el metal más ligero?|Aluminio|Litio|Sodio|Magnesio|1
+¿Qué gas necesitan las plantas para la fotosíntesis?|Oxígeno|Nitrógeno|Dióxido de carbono|Hidrógeno|2
+¿Cuál es el río más largo del mundo?|Nilo|Amazonas|Misisipi|Yangtsé|1
+¿Quién escribió Don Quijote de la Mancha?|Lope de Vega|Miguel de Cervantes|García Lorca|Calderón de la Barca|1
+¿Cuántos cromosomas tiene el ser humano?|23|44|46|48|2
+¿Cuál es la capital de Australia?|Sídney|Melbourne|Canberra|Brisbane|2
+¿Qué vitamina se obtiene principalmente del Sol?|Vitamina A|Vitamina B|Vitamina C|Vitamina D|3
+¿En qué año comenzó la Segunda Guerra Mundial?|1935|1939|1941|1945|1
+¿Cuál es el animal terrestre más rápido?|León|Guepardo|Antílope|Caballo|1
+¿Qué instrumento tiene 88 teclas?|Órgano|Acordeón|Piano|Clavicordio|2
+¿Cuál es el país más grande del mundo por superficie?|Canadá|China|Estados Unidos|Rusia|3
+¿Qué lenguaje de programación fue creado por James Gosling?|Python|C++|Java|JavaScript|2
