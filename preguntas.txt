@@ -1,23 +1,42 @@
 # Archivo de preguntas para TriviaNet
 # Formato: pregunta|opcionA|opcionB|opcionC|opcionD|indiceCorrecta (0=A, 1=B, 2=C, 3=D)
 
-¿Cuál es el planeta más grande del sistema solar?|Marte|Júpiter|Saturno|Venus|1
-¿En qué año llegó el hombre a la Luna?|1965|1969|1972|1959|1
-¿Cuál es el elemento químico más abundante en el universo?|Oxígeno|Carbono|Hidrógeno|Helio|2
-¿Qué país tiene forma de bota?|Grecia|España|Italia|Portugal|2
-¿Cuántos huesos tiene el cuerpo humano adulto?|186|206|256|196|1
-¿Quién pintó la Mona Lisa?|Miguel Ángel|Rafael|Leonardo da Vinci|Botticelli|2
-¿Cuál es el océano más grande del mundo?|Atlántico|Índico|Pacífico|Ártico|2
-¿En qué continente se encuentra Egipto?|Asia|Europa|África|Oceanía|2
-¿Cuál es el metal más ligero?|Aluminio|Litio|Sodio|Magnesio|1
-¿Qué gas necesitan las plantas para la fotosíntesis?|Oxígeno|Nitrógeno|Dióxido de carbono|Hidrógeno|2
-¿Cuál es el río más largo del mundo?|Nilo|Amazonas|Misisipi|Yangtsé|1
-¿Quién escribió Don Quijote de la Mancha?|Lope de Vega|Miguel de Cervantes|García Lorca|Calderón de la Barca|1
-¿Cuántos cromosomas tiene el ser humano?|23|44|46|48|2
-¿Cuál es la capital de Australia?|Sídney|Melbourne|Canberra|Brisbane|2
-¿Qué vitamina se obtiene principalmente del Sol?|Vitamina A|Vitamina B|Vitamina C|Vitamina D|3
-¿En qué año comenzó la Segunda Guerra Mundial?|1935|1939|1941|1945|1
-¿Cuál es el animal terrestre más rápido?|León|Guepardo|Antílope|Caballo|1
-¿Qué instrumento tiene 88 teclas?|Órgano|Acordeón|Piano|Clavicordio|2
-¿Cuál es el país más grande del mundo por superficie?|Canadá|China|Estados Unidos|Rusia|3
-¿Qué lenguaje de programación fue creado por James Gosling?|Python|C++|Java|JavaScript|2
+¿Cuál es el objetivo principal de la refactorización en software?|Agregar nuevas funcionalidades|Mejorar la estructura interna sin cambiar el comportamiento externo|Aumentar la velocidad de ejecución|Reducir el número de clases|1
+¿Qué patrón permite componer objetos en estructuras de árbol para representar jerarquías parte-todo?|Decorator|Proxy|Iterator|Composite|3
+¿Cuál es el patrón que define el esqueleto de un algoritmo dejando los detalles a las subclases?|Strategy|Command|Template Method|Observer|2
+¿Qué tipo de code smell describe métodos o clases demasiado grandes y difíciles de entender?|Olor de datos|Olor medible|Olor de herencia|Olor de responsabilidad|1
+¿Qué paradigma algorítmico resuelve un problema dividiéndolo recursivamente en subproblemas del mismo tipo?|Algoritmos voraces|Programación dinámica|Divide y vencerás|Backtracking|2
+¿Cuál es el algoritmo voraz que construye el árbol de expansión mínima procesando aristas de menor a mayor peso?|Prim|Dijkstra|Bellman-Ford|Kruskal|3
+¿Qué técnica de recorrido de grafos usa una pila implícita mediante recursión?|BFS|Búsqueda en anchura|DFS|Ramificación y poda|2
+¿Qué servicio de red se encarga de traducir nombres de dominio a direcciones IP?|DHCP|FTP|DNS|SMTP|2
+¿Cuál es la diferencia entre un proceso y un hilo en un sistema operativo?|Son lo mismo|Los hilos son unidades más ligeras que comparten el espacio de memoria del proceso|Los procesos son más ligeros que los hilos|Los hilos no pueden ejecutarse concurrentemente|1
+¿Qué herramienta de Linux permite configurar reglas de filtrado de paquetes de red?|Apache|DHCP|iptables|Postfix|2
+¿Qué protocolo permite el acceso remoto seguro a sistemas Linux mediante cifrado?|FTP|VNC|HTTP|SSH|3
+¿Qué notación de diagrama entidad-relación representa cardinalidades con símbolos de pata de gallo?|Classic|UML|IDEF1X|Crow's Foot|3
+¿Cuál es la operación relacional que combina filas de dos tablas basándose en una condición?|Selección|Proyección|Reunión (Join)|Unión|2
+¿Qué sentencia SQL permite crear un objeto que almacena una consulta con nombre reutilizable?|TRIGGER|PROCEDURE|VIEW|FUNCTION|2
+¿Qué es un trigger en bases de datos?|Una función almacenada|Un tipo de índice|Un procedimiento que se ejecuta automáticamente ante un evento|Una vista materializada|2
+¿Qué concepto de POO permite que un objeto se comporte de formas distintas según el tipo al que se hace referencia?|Encapsulamiento|Herencia|Polimorfismo|Abstracción|2
+¿Cuál es la diferencia entre polimorfismo estático y dinámico en POO?|No existe diferencia|El estático se resuelve en compilación; el dinámico en ejecución|El dinámico siempre es más eficiente|El estático solo aplica a interfaces|1
+¿Qué concepto describe la capacidad de un objeto de conservar su estado más allá del tiempo de vida del programa?|Concurrencia|Encapsulamiento|Persistencia|Polimorfismo|2
+¿Qué modificador de acceso en POO permite que un atributo sea visible solo dentro de su propia clase?|Public|Protected|Default|Private|3
+¿Qué tipo de lista enlazada permite recorrer los elementos en ambas direcciones?|Lista sencilla|Lista circular|Lista doblemente enlazada|Lista de adyacencia|2
+¿Qué es un montón (heap) máximo?|Un árbol donde el nodo raíz tiene el menor valor|Un árbol binario completo donde cada nodo es mayor o igual que sus hijos|Una lista ordenada de mayor a menor|Una tabla hash con colisiones|1
+¿Cuál es la complejidad de inserción en una tabla hash con función hash perfecta?|O(n)|O(log n)|O(n²)|O(1)|3
+¿Qué tipo de árbol garantiza que la diferencia de altura entre subárboles izquierdo y derecho sea como máximo 1?|Árbol binario de búsqueda|Árbol AVL|Árbol B|Árbol de expresiones|1
+¿Cuál es la función de la capa de enlace del modelo OSI?|Enrutamiento entre redes|Transferencia confiable de bits entre nodos adyacentes|Presentación de datos al usuario|Establecimiento de sesiones|1
+¿Cuál es la diferencia entre CSMA/CD y CSMA/CA?|Son idénticos|CSMA/CD detecta colisiones; CSMA/CA las evita antes de transmitir|CSMA/CA detecta colisiones; CSMA/CD las evita|CSMA/CD solo funciona en redes inalámbricas|1
+¿Cuántas capas tiene el modelo de referencia OSI?|4|5|7|9|2
+¿Cuál es la principal diferencia entre una dirección IPv4 y una IPv6?|No hay diferencia funcional|IPv4 usa 32 bits; IPv6 usa 128 bits|IPv6 usa 32 bits; IPv4 usa 128 bits|IPv6 solo funciona en redes locales|1
+¿Qué arquitectura de procesador separa la memoria de instrucciones de la memoria de datos?|Von Neumann|RISC|CISC|Harvard|3
+¿Cuál es la función del registro de contador de programa en una CPU?|Almacenar el resultado de operaciones aritméticas|Guardar la dirección de la siguiente instrucción a ejecutar|Gestionar la pila de llamadas|Controlar las interrupciones|1
+¿Cuál es la diferencia entre una arquitectura CISC y una RISC?|Son equivalentes|CISC tiene instrucciones complejas de longitud variable; RISC tiene instrucciones simples de longitud fija|RISC tiene instrucciones más complejas|CISC siempre ejecuta más rápido|1
+¿Qué código de representación de caracteres asigna valores numéricos a letras, dígitos y símbolos?|BCD|Complemento a 2|Punto flotante|ASCII|3
+¿Qué es un autómata finito determinista (AFD)?|Un grafo con pesos|Un modelo de cómputo con un número finito de estados y transiciones únicas por símbolo|Una gramática libre del contexto|Un tipo de árbol binario|1
+¿Cuál es la condición necesaria para que un grafo tenga un camino de Euler?|Todos los nodos deben tener grado par|Exactamente dos nodos deben tener grado impar|El grafo debe ser dirigido|El grafo debe ser completo|1
+¿Qué describe una expresión regular en teoría de lenguajes formales?|Un tipo de grafo|Un patrón que define un conjunto de cadenas de un lenguaje regular|Una gramática libre del contexto|Un autómata de pila|1
+¿Cuál es la función del lema del bombeo para lenguajes regulares?|Construir autómatas finitos|Demostrar que un lenguaje no es regular|Diseñar gramáticas libres del contexto|Simplificar expresiones booleanas|1
+¿Cuál es la ventaja principal del diseño descendente en programación estructurada?|Reduce el uso de memoria|Permite descomponer problemas complejos en subproblemas manejables|Elimina la necesidad de depuración|Aumenta la velocidad de compilación|1
+¿Qué es la recursión en programación?|Un tipo de bucle iterativo|Una función que se llama a sí misma para resolver subproblemas más pequeños|Un modo de direccionamiento de memoria|Una estructura de datos dinámica|1
+¿Cuál es la diferencia entre paso de parámetros por valor y por referencia?|No hay diferencia|Por valor copia el dato; por referencia pasa la dirección de memoria del dato original|Por referencia copia el dato; por valor pasa la dirección|Por valor siempre modifica el original|1
+¿Para qué se usan los archivos binarios en programación estructurada?|Almacenar código fuente|Mostrar resultados en pantalla|Persistir datos en memoria secundaria de forma no legible por texto|Compilar el programa|2

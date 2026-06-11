@@ -152,9 +152,15 @@ public class TriviaClient extends JFrame {
      */
     static class RoundedPanel extends JPanel {
         private final int radius;
-        private final Color bg;
-        private final Color borderColor;
+        private Color bg;
+        private Color borderColor;
         private final int borderWidth;
+
+        void setColors(Color bg, Color borderColor) {
+            this.bg = bg;
+            this.borderColor = borderColor;
+            repaint();
+        }
 
         RoundedPanel(int radius, Color bg) {
             this(radius, bg, null, 0);
@@ -863,9 +869,8 @@ public class TriviaClient extends JFrame {
      * Panel de retroalimentación (correcto / incorrecto)
      */
     private RoundedPanel buildFeedbackPanel() {
-        // Fondo verde semi-transparente por defecto; showResult lo cambia si es incorrecto
-        RoundedPanel fp = new RoundedPanel(12, new Color(34, 197, 94, 25),
-                new Color(34, 197, 94, 80), 1);
+        // Fondo oscuro neutro por defecto; showResult lo cambia a verde/rojo según resultado
+        RoundedPanel fp = new RoundedPanel(12, C_CARD, C_BORDER, 1);
         fp.setLayout(new BorderLayout(12, 0));
         fp.setBorder(BorderFactory.createEmptyBorder(12, 16, 12, 16));
 
@@ -1033,6 +1038,7 @@ public class TriviaClient extends JFrame {
         feedbackIconLabel.setText("");
         feedbackSubLabel.setText("");
         feedbackPtsLabel.setText("");
+        feedbackPanel.setColors(C_CARD, C_BORDER);
         canAnswer = true;
     }
 
@@ -1077,11 +1083,13 @@ public class TriviaClient extends JFrame {
             feedbackIconLabel.setForeground(C_GREEN);
             feedbackPtsLabel.setText("+100 puntos");
             feedbackPtsLabel.setForeground(C_GREEN);
+            feedbackPanel.setColors(new Color(34, 197, 94, 25), new Color(34, 197, 94, 80));
         } else {
             feedbackIconLabel.setText("Incorrecto");
             feedbackIconLabel.setForeground(C_RED);
             feedbackPtsLabel.setText("+0 puntos");
             feedbackPtsLabel.setForeground(C_MUTED);
+            feedbackPanel.setColors(new Color(239, 68, 68, 25), new Color(239, 68, 68, 80));
         }
         feedbackSubLabel.setText("Respuesta correcta: " + correctLetter
                 + "  ·  Tu respuesta: " + myAnswer);
